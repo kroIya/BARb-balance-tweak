@@ -1,6 +1,8 @@
+--Jammer, air, nuke restriction
 local restricted = {
     -- air
     corcrwh = 0,
+    legfort = 0,
     armliche = 1,
     armsb = 3,
     corsb = 3,
@@ -16,10 +18,17 @@ local restricted = {
     armthund = 5,
     corshad = 5,
     corbw = 50,
+    legmos = 10,
+    legmineb = 5,
+    legphoenix = 3,
+    legnap = 3,
+    legkam = 10,
+    legstronghold = 3,
 
     -- nukes
     armsilo = 3,
     corsilo = 3,
+    legsilo = 3,
 }
 
 for name, ud in pairs(UnitDefs) do
